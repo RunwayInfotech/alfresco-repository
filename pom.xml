@@ -113,6 +113,11 @@
             <version>${dependency.alfresco-hb-data-sender.version}</version>
         </dependency>
         <dependency>
+            <groupId>org.alfresco.deployment</groupId>
+            <artifactId>jwt-utils</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
             <groupId>com.sun.mail</groupId>
             <artifactId>javax.mail</artifactId>
             <version>1.5.5</version>
