@@ -164,7 +164,7 @@ public class TokenRemoteUserMapper implements RemoteUserMapper, ActivateableBean
             }
             catch (Exception e)
             {
-                logger.error("Failed to extract token from header", e);
+                logger.error("Failed to extract token from header: ", e);
                 return null;
             }
             
